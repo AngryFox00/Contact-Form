@@ -294,10 +294,7 @@ input {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
+  color: #ffffff;
   border-radius: 0.25rem;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -315,7 +312,7 @@ input {
     border: 0; }
   .form-control:focus {
     color: #ffffff;
-    background-color: #2b5c8576;
+    background-color: #2b5d8556;
     border-color: #80bdff;
     outline: 0;
     }
@@ -365,65 +362,6 @@ margin-bottom: 1rem; }
   margin-bottom: 1.5rem !important;}
 .p-4 {
   padding: 1.5rem !important; }
-
-  /*@media print {
-    *,
-    *::before,
-    *::after {
-      text-shadow: none !important;
-      -webkit-box-shadow: none !important;
-      box-shadow: none !important; }
-    a:not(.btn) {
-      text-decoration: underline; }
-    abbr[title]::after {
-      content: " (" attr(title) ")"; }
-    pre {
-      white-space: pre-wrap !important; }
-    pre,
-    blockquote {
-      border: 1px solid #adb5bd;
-      page-break-inside: avoid; }
-    thead {
-      display: table-header-group; }
-    tr,
-    img {
-      page-break-inside: avoid; }
-    p,
-    h2,
-    h3 {
-      orphans: 3;
-      widows: 3; }
-    h2,
-    h3 {
-      page-break-after: avoid; }
-    @page {
-      size: a3; }
-    body {
-      min-width: 992px !important; }
-    .container {
-      min-width: 992px !important; }
-    .navbar {
-      display: none; }
-    .badge {
-      border: 1px solid #000; }
-    .table {
-      border-collapse: collapse !important; }
-      .table td,
-      .table th {
-        background-color: #fff !important; }
-    .table-bordered th,
-    .table-bordered td {
-      border: 1px solid #dee2e6 !important; }
-    .table-dark {
-      color: inherit; }
-      .table-dark th,
-      .table-dark td,
-      .table-dark thead th,
-      .table-dark tbody + tbody {
-        border-color: #dee2e6; }
-    .table .thead-dark th {
-      color: inherit;
-      border-color: #dee2e6; } }*/
 
 .submitting {
   float: left;
