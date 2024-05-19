@@ -54,7 +54,7 @@ a {
 
 
   input:not(.btn-primary), #message{
-    color:#ffffff00;
+    color:#ffffff;
 border-radius: 7px 7px 7px 7зx;
 border:#e9ecef00;
 backdrop-filter: blur(2px);
